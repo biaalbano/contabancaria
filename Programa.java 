@@ -1,0 +1,19 @@
+public class Programa {
+public static void main (String[] args){
+    Conta minhaconta;
+    minhaConta= new Conta();
+    minhaConta.numero=1;
+    minhaConta.titular="mimin"
+    minhaConta.saldo=5000;
+
+   Conta minhaconta2;
+    minhaConta2= new Conta();
+    minhaConta2.numero=2;
+    minhaConta2.titular="lunna "
+    minhaConta2.saldo=10000;    
+
+ System.out.println(minhaConta2.numero);       
+ System.out.println(minhaConta2.titular);       
+ System.out.println(minhaConta2.saldo);
+}
+}
